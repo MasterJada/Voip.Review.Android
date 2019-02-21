@@ -12,7 +12,7 @@ import androidx.core.text.bold
 import androidx.core.text.buildSpannedString
 import androidx.core.text.color
 import androidx.core.text.scale
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatinformation.viewmodel.ReadReceiptViewModel
 import chat.rocket.android.chatroom.domain.MessageReply
 import chat.rocket.android.dagger.scope.PerFragment

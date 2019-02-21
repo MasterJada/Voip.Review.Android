@@ -2,7 +2,7 @@ package chat.rocket.android.chatrooms.adapter
 
 import android.app.Application
 import android.text.SpannableStringBuilder
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatrooms.adapter.model.RoomUiModel
 import chat.rocket.android.db.model.ChatRoom
 import chat.rocket.android.server.domain.GetCurrentUserInteractor

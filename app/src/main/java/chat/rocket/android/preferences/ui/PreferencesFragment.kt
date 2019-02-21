@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import chat.rocket.android.BuildConfig
-import chat.rocket.android.R
+import voip.review.android.BuildConfig
+import voip.review.android.R
 import chat.rocket.android.analytics.AnalyticsManager
 import chat.rocket.android.analytics.event.ScreenViewEvent
 import chat.rocket.android.main.ui.MainActivity

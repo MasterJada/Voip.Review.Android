@@ -1,7 +1,7 @@
 package chat.rocket.android.authentication.presentation
 
 import android.content.Intent
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.analytics.event.ScreenViewEvent
 import chat.rocket.android.authentication.domain.model.LoginDeepLinkInfo
 import chat.rocket.android.authentication.ui.AuthenticationActivity

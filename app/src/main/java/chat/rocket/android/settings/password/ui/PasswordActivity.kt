@@ -3,7 +3,7 @@ package chat.rocket.android.settings.password.ui
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.appcompat.app.AppCompatActivity
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.util.extensions.addFragment
 import chat.rocket.android.util.extensions.textContent
 import dagger.android.AndroidInjection

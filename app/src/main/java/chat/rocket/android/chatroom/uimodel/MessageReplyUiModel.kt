@@ -1,6 +1,6 @@
 package chat.rocket.android.chatroom.uimodel
 
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatroom.domain.MessageReply
 import chat.rocket.core.model.Message
 

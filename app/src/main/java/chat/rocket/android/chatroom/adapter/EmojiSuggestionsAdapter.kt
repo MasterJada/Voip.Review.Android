@@ -6,7 +6,7 @@ import android.text.style.ImageSpan
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatroom.adapter.EmojiSuggestionsAdapter.EmojiSuggestionViewHolder
 import chat.rocket.android.chatroom.uimodel.suggestion.EmojiSuggestionUiModel
 import chat.rocket.android.emoji.EmojiParser

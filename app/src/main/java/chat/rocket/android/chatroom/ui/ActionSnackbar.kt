@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.setPadding
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.helper.MessageParser
 import chat.rocket.android.util.extensions.content
 import com.google.android.material.snackbar.BaseTransientBottomBar

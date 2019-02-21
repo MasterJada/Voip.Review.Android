@@ -3,7 +3,7 @@ package chat.rocket.android.members.adapter
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.members.uimodel.MemberUiModel
 import chat.rocket.android.util.extensions.content
 import chat.rocket.android.util.extensions.inflate

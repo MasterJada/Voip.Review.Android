@@ -1,7 +1,7 @@
 package chat.rocket.android.server.infraestructure
 
 import android.os.Build
-import chat.rocket.android.BuildConfig
+import voip.review.android.BuildConfig
 import chat.rocket.android.server.domain.TokenRepository
 import chat.rocket.common.util.PlatformLogger
 import chat.rocket.core.RocketChatClient

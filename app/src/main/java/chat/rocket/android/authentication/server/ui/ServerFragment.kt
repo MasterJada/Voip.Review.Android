@@ -16,8 +16,8 @@ import androidx.core.text.color
 import androidx.core.view.ViewCompat
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import chat.rocket.android.BuildConfig
-import chat.rocket.android.R
+import voip.review.android.BuildConfig
+import voip.review.android.R
 import chat.rocket.android.analytics.AnalyticsManager
 import chat.rocket.android.analytics.event.ScreenViewEvent
 import chat.rocket.android.authentication.domain.model.LoginDeepLinkInfo
@@ -58,7 +58,7 @@ class ServerFragment : Fragment(), ServerView {
     private lateinit var serverUrlDisposable: Disposable
     private val layoutListener = ViewTreeObserver.OnGlobalLayoutListener {
         if (KeyboardHelper.isSoftKeyboardShown(scroll_view.rootView)) {
-            scroll_view.fullScroll(ScrollView.FOCUS_DOWN)
+            //scroll_view.fullScroll(ScrollView.FOCUS_DOWN)
             text_server_url.isCursorVisible = true
         }
     }

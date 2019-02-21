@@ -4,7 +4,7 @@ import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatroom.presentation.ChatRoomNavigator
 import chat.rocket.android.chatroom.uimodel.AttachmentUiModel
 import chat.rocket.android.chatroom.uimodel.BaseUiModel

@@ -1,6 +1,6 @@
 package chat.rocket.android.server.presentation
 
-import chat.rocket.android.BuildConfig
+import voip.review.android.BuildConfig
 import chat.rocket.android.authentication.server.presentation.VersionCheckView
 import chat.rocket.android.core.lifecycle.CancelStrategy
 import chat.rocket.android.db.DatabaseManager

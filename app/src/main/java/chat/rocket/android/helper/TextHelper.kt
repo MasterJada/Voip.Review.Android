@@ -6,7 +6,7 @@ import android.text.Spanned
 import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan
 import android.widget.TextView
-import chat.rocket.android.BuildConfig
+import voip.review.android.BuildConfig
 import chat.rocket.android.util.extensions.ifEmpty
 
 object TextHelper {

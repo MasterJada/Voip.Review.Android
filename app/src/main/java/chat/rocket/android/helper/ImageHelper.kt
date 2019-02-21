@@ -17,7 +17,7 @@ import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import androidx.core.net.toUri
 import androidx.core.view.setPadding
-import chat.rocket.android.R
+import voip.review.android.R
 import com.facebook.binaryresource.FileBinaryResource
 import com.facebook.cache.common.CacheKey
 import com.facebook.imageformat.ImageFormatChecker

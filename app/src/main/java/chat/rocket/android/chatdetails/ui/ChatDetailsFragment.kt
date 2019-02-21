@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatdetails.domain.ChatDetails
 import chat.rocket.android.chatdetails.presentation.ChatDetailsPresenter
 import chat.rocket.android.chatdetails.presentation.ChatDetailsView

@@ -13,7 +13,8 @@ android {
     buildToolsVersion versions.buildTools
 
     defaultConfig {
-        applicationId "chat.rocket.android"
+        //  applicationId "chat.rocket.android"
+        applicationId "voip.review.android"
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode 2057

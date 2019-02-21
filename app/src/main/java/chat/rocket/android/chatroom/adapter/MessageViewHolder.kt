@@ -7,7 +7,7 @@ import android.text.method.LinkMovementMethod
 import android.text.style.ImageSpan
 import android.view.View
 import androidx.core.view.isVisible
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatroom.uimodel.MessageUiModel
 import chat.rocket.android.emoji.EmojiReactionListener
 import chat.rocket.core.model.isSystemMessage

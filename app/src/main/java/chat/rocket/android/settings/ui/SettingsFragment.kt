@@ -10,7 +10,7 @@ import android.widget.AdapterView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.about.ui.AboutFragment
 import chat.rocket.android.about.ui.TAG_ABOUT_FRAGMENT
 import chat.rocket.android.analytics.AnalyticsManager

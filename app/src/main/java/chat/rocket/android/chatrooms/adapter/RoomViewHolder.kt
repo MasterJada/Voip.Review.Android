@@ -6,7 +6,7 @@ import android.view.View
 import androidx.core.view.isGone
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatrooms.adapter.model.RoomUiModel
 import chat.rocket.common.model.RoomType
 import chat.rocket.common.model.UserStatus

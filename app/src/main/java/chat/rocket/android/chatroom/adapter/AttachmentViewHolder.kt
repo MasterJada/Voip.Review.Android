@@ -10,7 +10,7 @@ import androidx.core.net.toUri
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatroom.uimodel.AttachmentUiModel
 import chat.rocket.android.emoji.EmojiReactionListener
 import chat.rocket.android.helper.ImageHelper

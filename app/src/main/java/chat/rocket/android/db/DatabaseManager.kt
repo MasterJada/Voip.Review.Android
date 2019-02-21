@@ -1,7 +1,7 @@
 package chat.rocket.android.db
 
 import android.app.Application
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.db.model.BaseMessageEntity
 import chat.rocket.android.db.model.BaseUserEntity
 import chat.rocket.android.db.model.ChatRoomEntity

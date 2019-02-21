@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.children
 import androidx.lifecycle.Lifecycle
 import androidx.recyclerview.widget.RecyclerView
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatroom.ui.bottomsheet.MessageActionsBottomSheet
 import chat.rocket.android.chatroom.uimodel.BaseUiModel
 import chat.rocket.android.emoji.Emoji

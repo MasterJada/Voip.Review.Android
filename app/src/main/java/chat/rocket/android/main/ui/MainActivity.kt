@@ -11,8 +11,8 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import chat.rocket.android.BuildConfig
-import chat.rocket.android.R
+import voip.review.android.BuildConfig
+import voip.review.android.R
 import chat.rocket.android.chatrooms.ui.ChatRoomsFragment
 import chat.rocket.android.main.adapter.AccountsAdapter
 import chat.rocket.android.main.adapter.Selector

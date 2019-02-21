@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.analytics.AnalyticsManager
 import chat.rocket.android.util.extensions.inflate
 import chat.rocket.android.util.extensions.ui

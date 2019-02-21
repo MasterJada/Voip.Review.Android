@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatdetails.domain.Option
 import chat.rocket.android.chatrooms.adapter.ViewHolder
 import kotlinx.android.synthetic.main.item_detail_option.view.*

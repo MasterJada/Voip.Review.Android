@@ -7,8 +7,8 @@ import android.app.job.JobScheduler
 import android.content.ComponentName
 import android.content.Context
 import android.content.SharedPreferences
-import chat.rocket.android.BuildConfig
-import chat.rocket.android.R
+import voip.review.android.BuildConfig
+import voip.review.android.R
 import chat.rocket.android.analytics.AnalyticsManager
 import chat.rocket.android.analytics.AnswersAnalytics
 import chat.rocket.android.analytics.GoogleAnalyticsForFirebase

@@ -1,6 +1,6 @@
 package chat.rocket.android.chatrooms.presentation
 
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatrooms.adapter.model.RoomUiModel
 import chat.rocket.android.core.lifecycle.CancelStrategy
 import chat.rocket.android.db.DatabaseManager

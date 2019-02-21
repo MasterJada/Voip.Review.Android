@@ -2,7 +2,7 @@ package chat.rocket.android.chatdetails.ui
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatdetails.adapter.OptionItemHolder
 import chat.rocket.android.chatdetails.adapter.OptionViewHolder
 import chat.rocket.android.chatdetails.domain.Option

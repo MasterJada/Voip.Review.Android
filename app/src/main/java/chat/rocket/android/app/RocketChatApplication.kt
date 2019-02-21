@@ -9,7 +9,7 @@ import android.content.SharedPreferences
 import androidx.core.content.edit
 import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.work.Worker
-import chat.rocket.android.BuildConfig
+import voip.review.android.BuildConfig
 import chat.rocket.android.dagger.DaggerAppComponent
 import chat.rocket.android.dagger.injector.HasWorkerInjector
 import chat.rocket.android.dagger.qualifier.ForMessages

@@ -2,7 +2,7 @@ package chat.rocket.android.chatroom.presentation
 
 import android.graphics.Bitmap
 import android.net.Uri
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.analytics.AnalyticsManager
 import chat.rocket.android.analytics.event.SubscriptionTypeEvent
 import chat.rocket.android.chatroom.adapter.AutoCompleteType

@@ -1,6 +1,6 @@
 package chat.rocket.android.chatroom.presentation
 
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatdetails.ui.TAG_CHAT_DETAILS_FRAGMENT
 import chat.rocket.android.chatinformation.ui.messageInformationIntent
 import chat.rocket.android.chatroom.ui.ChatRoomActivity

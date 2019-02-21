@@ -2,7 +2,7 @@ package chat.rocket.android.chatrooms.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.chatrooms.adapter.model.RoomUiModel
 import chat.rocket.android.util.extensions.inflate
 

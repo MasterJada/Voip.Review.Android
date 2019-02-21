@@ -10,7 +10,7 @@ import android.webkit.CookieManager
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.core.net.toUri
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.util.extensions.decodeUrl
 import chat.rocket.android.util.extensions.toJsonObject
 import kotlinx.android.synthetic.main.activity_web_view.*

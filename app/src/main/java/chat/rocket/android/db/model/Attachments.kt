@@ -6,7 +6,7 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.util.extension.orFalse
 import chat.rocket.android.util.extensions.isNotNullNorEmpty
 import chat.rocket.core.model.attachment.Attachment

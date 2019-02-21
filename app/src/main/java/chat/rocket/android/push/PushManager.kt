@@ -19,7 +19,7 @@ import androidx.core.app.RemoteInput
 import android.text.Html
 import android.text.Spanned
 import androidx.core.content.ContextCompat
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.main.ui.MainActivity
 import chat.rocket.android.server.domain.GetAccountInteractor
 import chat.rocket.android.server.domain.GetSettingsInteractor

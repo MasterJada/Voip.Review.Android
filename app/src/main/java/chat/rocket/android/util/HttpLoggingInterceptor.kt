@@ -1,6 +1,6 @@
 package chat.rocket.android.util
 
-import chat.rocket.android.BuildConfig
+import voip.review.android.BuildConfig
 import okhttp3.Headers
 import okhttp3.Interceptor
 import okhttp3.MediaType

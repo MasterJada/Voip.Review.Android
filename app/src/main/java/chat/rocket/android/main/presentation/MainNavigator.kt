@@ -1,6 +1,6 @@
 package chat.rocket.android.main.presentation
 
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.authentication.ui.newServerIntent
 import chat.rocket.android.chatroom.ui.chatRoomIntent
 import chat.rocket.android.chatrooms.ui.ChatRoomsFragment

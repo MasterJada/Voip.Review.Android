@@ -7,7 +7,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import chat.rocket.android.R
+import voip.review.android.R
 import kotlinx.android.synthetic.main.activity_web_view.*
 import kotlinx.android.synthetic.main.app_bar.*
 

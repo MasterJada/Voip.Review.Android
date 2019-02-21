@@ -6,7 +6,7 @@ import android.view.MenuItem
 import android.widget.EditText
 import androidx.appcompat.widget.SearchView
 import androidx.core.content.res.ResourcesCompat
-import chat.rocket.android.R
+import voip.review.android.R
 import chat.rocket.android.util.extension.onQueryTextListener
 
 internal fun ChatRoomFragment.setupMenu(menu: Menu) {
