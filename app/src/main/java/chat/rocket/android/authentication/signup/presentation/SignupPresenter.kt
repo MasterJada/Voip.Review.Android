@@ -1,5 +1,6 @@
 package chat.rocket.android.authentication.signup.presentation
 
+import android.app.AlertDialog
 import chat.rocket.android.analytics.AnalyticsManager
 import chat.rocket.android.analytics.event.AuthenticationEvent
 import chat.rocket.android.authentication.presentation.AuthenticationNavigator
@@ -50,18 +51,26 @@ class SignupPresenter @Inject constructor(
             try {
                 // TODO This function returns a user so should we save it?
                 retryIO("signup") { client.signup(email, name, username, password) }
+                //Commented to not save data
                 // TODO This function returns a user token so should we save it?
-                retryIO("login") { client.login(username, password) }
-                val me = retryIO("me") { client.me() }
-                saveCurrentServerInteractor.save(currentServer)
-                localRepository.save(LocalRepository.CURRENT_USERNAME_KEY, me.username)
-                saveAccount(me)
-                analyticsManager.logSignUp(
-                    AuthenticationEvent.AuthenticationWithUserAndPassword,
-                    true
-                )
-                view.saveSmartLockCredentials(username, password)
-                navigator.toChatList()
+//                retryIO("login") { client.login(username, password) }
+//                val me = retryIO("me") { client.me() }
+//                saveCurrentServerInteractor.save(currentServer)
+//                localRepository.save(LocalRepository.CURRENT_USERNAME_KEY, me.username)
+//                saveAccount(me)
+//                analyticsManager.logSignUp(
+//                    AuthenticationEvent.AuthenticationWithUserAndPassword,
+//                    true
+//                )
+//                view.saveSmartLockCredentials(username, password)
+//                navigator.toChatList()
+                //Show dialog on view
+
+                view.showDialog{
+                    navigator.toLoginNoBackStack(currentServer)
+                    view.removeDialog()
+                }
+
             } catch (exception: RocketChatException) {
                 analyticsManager.logSignUp(
                     AuthenticationEvent.AuthenticationWithUserAndPassword,
@@ -89,6 +98,10 @@ class SignupPresenter @Inject constructor(
         serverInteractor.get()?.let {
             navigator.toWebPage(it.privacyPolicyUrl())
         }
+    }
+
+    private suspend fun showDialog(){
+
     }
 
     private suspend fun saveAccount(me: Myself) {

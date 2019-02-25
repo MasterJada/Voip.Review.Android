@@ -1,6 +1,7 @@
 package chat.rocket.android.authentication.signup.ui
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -33,6 +34,8 @@ fun newInstance() = SignupFragment()
 internal const val SAVE_CREDENTIALS = 1
 
 class SignupFragment : Fragment(), SignupView {
+
+
     @Inject
     lateinit var presenter: SignupPresenter
     @Inject
@@ -180,4 +183,24 @@ class SignupFragment : Fragment(), SignupView {
         text_password.isEnabled = false
         text_email.isEnabled = false
     }
+
+    lateinit var dialog: AlertDialog
+    override fun showDialog(callback: ()-> Unit) {
+        dialog = AlertDialog.Builder(context)
+                .setTitle("Email verification")
+                .setMessage("We have sent you an email to confirm your registration." +
+                        " If you do not receive an email shortly, please come back and try again")
+                .setPositiveButton("OK"){_, _ ->
+                    callback.invoke()
+                }
+                .show()
+    }
+
+    override fun removeDialog() {
+        if(::dialog.isInitialized){
+            dialog.dismiss()
+        }
+    }
+
+
 }

@@ -68,7 +68,7 @@
         <item name="item_share_app">Condividi app</item>
         <item name="item_rate_us">Votaci</item>
         <item name="item_contact_us">Contattaci</item>
-        <item name="item_licence">Licenza</item>
+        <!--<item name="item_licence">Licenza</item>-->
         <item name="item_about">Di</item>
     </string-array>
 

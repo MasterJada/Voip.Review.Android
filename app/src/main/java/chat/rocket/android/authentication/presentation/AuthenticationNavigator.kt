@@ -101,6 +101,12 @@ class AuthenticationNavigator(internal val activity: AuthenticationActivity) {
         }
     }
 
+    fun toLoginNoBackStack(serverUrl: String){
+        activity.addFragment(ScreenViewEvent.Login.screenName, R.id.fragment_container) {
+            chat.rocket.android.authentication.login.ui.newInstance(serverUrl)
+        }
+    }
+
     fun toForgotPassword() {
         activity.addFragmentBackStack(
             ScreenViewEvent.ResetPassword.screenName,

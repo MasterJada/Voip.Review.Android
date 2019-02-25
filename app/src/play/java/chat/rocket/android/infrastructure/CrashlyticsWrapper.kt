@@ -1,7 +1,7 @@
 package chat.rocket.android.infrastructure
 
 import android.app.Application
-import chat.rocket.android.BuildConfig
+import voip.review.android.BuildConfig
 import chat.rocket.android.server.domain.AccountsRepository
 import chat.rocket.android.server.domain.GetCurrentServerInteractor
 import chat.rocket.android.server.domain.GetSettingsInteractor

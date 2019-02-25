@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="chat.rocket.android">
+    package="voip.review.android">
 
     <application
-        android:name=".app.RocketChatApplication"
+        android:name="chat.rocket.android.app.RocketChatApplication"
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_config"
         android:icon="@mipmap/ic_launcher"
@@ -13,7 +13,7 @@
         android:supportsRtl="true">
 
         <service
-            android:name=".push.FirebaseMessagingService"
+            android:name="chat.rocket.android.push.FirebaseMessagingService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

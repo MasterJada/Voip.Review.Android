@@ -75,7 +75,7 @@
         <item name="item_share_app">Link zur App teilen</item>
         <item name="item_rate_us">Bewerten Sie uns</item>
         <item name="item_contact_us">Kontaktieren Sie uns</item>
-        <item name="item_licence">Lizenz</item>
+        <!--<item name="item_licence">Lizenz</item>-->
         <item name="item_about">Über</item>
     </string-array>
 

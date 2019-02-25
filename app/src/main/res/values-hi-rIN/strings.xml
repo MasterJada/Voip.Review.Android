@@ -68,7 +68,7 @@
         <item name="item_share_app">ऐप शेयर करें</item>
         <item name="item_rate_us">हमें रेटिंग दें</item>
         <item name="item_contact_us">हमसे संपर्क करें</item>
-        <item name="item_licence">लाइसेंस</item>
+        <!--<item name="item_licence">लाइसेंस</item>-->
         <item name="item_about">के बारे में</item>
     </string-array>
 

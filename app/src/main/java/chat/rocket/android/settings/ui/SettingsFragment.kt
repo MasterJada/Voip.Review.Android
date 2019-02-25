@@ -83,14 +83,14 @@ class SettingsFragment : Fragment(), SettingsView, AdapterView.OnItemClickListen
 
             resources.getStringArray(R.array.settings_actions)[5] -> contactSupport()
 
-            resources.getStringArray(R.array.settings_actions)[6] -> activity?.startActivity(
-                context?.webViewIntent(
-                    getString(R.string.license_url),
-                    getString(R.string.title_licence)
-                )
-            )
+//            resources.getStringArray(R.array.settings_actions)[6] -> activity?.startActivity(
+//                context?.webViewIntent(
+//                    getString(R.string.license_url),
+//                    getString(R.string.title_licence)
+//                )
+//            )
 
-            resources.getStringArray(R.array.settings_actions)[7] -> {
+            resources.getStringArray(R.array.settings_actions)[6] -> {
                 (activity as AppCompatActivity).addFragmentBackStack(
                     TAG_ABOUT_FRAGMENT,
                     R.id.fragment_container
@@ -130,7 +130,7 @@ class SettingsFragment : Fragment(), SettingsView, AdapterView.OnItemClickListen
     private fun contactSupport() {
         with(Intent(Intent.ACTION_SEND)) {
             type = "message/rfc822"
-            putExtra(Intent.EXTRA_EMAIL, arrayOf("support@rocket.chat"))
+            putExtra(Intent.EXTRA_EMAIL, arrayOf("support@didww.com"))
             putExtra(Intent.EXTRA_SUBJECT, getString(R.string.msg_android_app_support))
             putExtra(Intent.EXTRA_TEXT, getDeviceAndAppInformation())
             try {

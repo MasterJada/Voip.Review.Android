@@ -64,7 +64,7 @@ android {
             buildConfigField "String", "REQUIRED_SERVER_VERSION", '"0.62.0"'
             buildConfigField "String", "RECOMMENDED_SERVER_VERSION", '"0.64.2"'
             signingConfig signingConfigs.debug
-            applicationIdSuffix ".dev"
+            //applicationIdSuffix ".dev"
         }
     }
 
@@ -74,12 +74,10 @@ android {
         // includes proprietary libs
         play {
             dimension "type"
-           // applicationId "chat.didww.android"
         }
 
         // only foss
         foss {
-            //applicationId "chat.didww.android"
             dimension "type"
         }
     }

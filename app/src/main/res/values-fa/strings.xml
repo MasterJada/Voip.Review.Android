@@ -68,7 +68,7 @@
         <item name="change_language">Change language</item> <!-- TODO Add translation -->
         <item name="item_rate_us">به ما امتیاز دهید</item>
         <item name="item_contact_us">تماس با ما</item>
-        <item name="item_licence">مجوز</item>
+        <!--<item name="item_licence">مجوز</item>-->
         <item name="item_about">درباره</item>
     </string-array>
 

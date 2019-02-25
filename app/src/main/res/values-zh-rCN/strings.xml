@@ -68,7 +68,7 @@
         <item name="item_share_app">分享app</item>
         <item name="item_rate_us">给我们打分</item>
         <item name="item_contact_us">联系我们</item>
-        <item name="item_licence">许可证</item>
+        <!--<item name="item_licence">许可证</item>-->
         <item name="item_about">关于</item>
     </string-array>
 

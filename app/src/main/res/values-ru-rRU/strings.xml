@@ -68,7 +68,7 @@
         <item name="item_share_app">Поделиться приложением</item>
         <item name="item_rate_us">Оцените нас</item>
         <item name="item_contact_us">Связаться с нами</item>
-        <item name="item_licence">Лицензия</item>
+        <!--<item name="item_licence">Лицензия</item>-->
         <item name="item_about">О программе</item>
     </string-array>
 

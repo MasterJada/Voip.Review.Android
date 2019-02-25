@@ -1,6 +1,6 @@
 package chat.rocket.android.util
 
-import chat.rocket.android.BuildConfig
+import voip.review.android.BuildConfig
 import io.fabric.sdk.android.Fabric
 import com.crashlytics.android.Crashlytics
 import com.crashlytics.android.core.CrashlyticsCore
@@ -17,6 +17,7 @@ fun setupFabric(context: Context) {
             .core(core) // For Crashlytics
             .answers(Answers()) // For Answers
             .build()
+
     )
 
     installCrashlyticsWrapper(
@@ -26,4 +27,5 @@ fun setupFabric(context: Context) {
         context.accountRepository,
         context.localRepository
     )
+    
 }
